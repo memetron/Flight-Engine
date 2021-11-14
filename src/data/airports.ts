@@ -2,6 +2,15 @@ import { Airport } from '../types';
 
 export const airports: Airport[] = [
   {
+    code: 'BCN',
+    city: 'Barcelona',
+    timezone: 'Europe/Central',
+    location: {
+      latitude: 41.3874,
+      longitude: 2.1686,
+    },
+  },
+  {
     code: 'DFW',
     city: 'Dallas-Fort Worth',
     timezone: 'America/Chicago',
